@@ -131,10 +131,10 @@ export default function ShopPage() {
             <div className="mb-3">
               <h5 className='bg-dark text-light text-center p-2'>Price Filter</h5>
               <form onSubmit={postPriceFilter}>
-              <div className="btn-group mb-3 w-100 bg-dark">
+              <div className="btn-group mb-3 w-100">
               <input type="range"name='min'onInput={(e)=>parseInt(e.target.value)<max?setMin(e.target.value):null}min={0}  value={min} max={50000}step={500}className='w-100'/><span>{min}</span>
               </div>
-              <div className="btn-group mb-3 w-100 bg-dark">
+              <div className="btn-group mb-3 w-100">
               <input type="range"name='max'onInput={(e)=>parseInt(e.target.value)>min?setMax(e.target.value):null}min={0}value={max}max={50000}step={500}className='w-100'/><span>{max}</span>
               </div>
               <button type="submit"className='btn btn-dark w-100'>Apply Filter</button>
