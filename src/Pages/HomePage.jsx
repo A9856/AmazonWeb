@@ -54,7 +54,7 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-                    <img src="/Ecom/assets/img/banner7.jpg" className="img-fluid animated" alt="" />
+                    <img src="/AmazonWeb/assets/img/banner7.jpg" className="img-fluid animated" alt="" />
                   </div>
                 </div>
               </div>
