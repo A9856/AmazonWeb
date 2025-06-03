@@ -48,7 +48,7 @@ import AdminUser from './Pages/Admin/User/AdminUser'
 import ErrorPage from './Pages/ErrorPage'
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter  basename="/AmazonWeb/">
             <Navbar />
             <Routes>
                 <Route path='' element={<HomePage />} />
