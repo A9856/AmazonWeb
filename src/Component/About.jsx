@@ -29,7 +29,7 @@ export default function About({ title }) {
             </div>
 
             <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-              <img src="assets/img/banner6.jpg" className="img-fluid" alt="" />
+              <img src="/Ecom/assets/img/banner6.jpg" className="img-fluid" alt="" />
             </div>
 
           </div>
